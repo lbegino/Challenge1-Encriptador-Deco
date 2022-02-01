@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de encriptacion y Decodificador</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Challenge 1 - Alura LATAM </h1> <img src="alura.png" align="right" width="60">
+<h2 class="titulo"> Codificador / Decodificador </h2>
+<br>
+
+  <br>
+<br>
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="text-input">Encriptador</label>  <img src="segclose.png" align="center" width="25">
+        <br>
+        <label for="text-input">(Solo Minusculas, sin acentos)</label>
+        <br>
+      </br>
+       <input class="entrada" type="text" style="width:300px;height:85px" value="Ingresar texto" id="msg1" onclick="input()">
+       </br>
+        <input class="btn" type="submit" value="ENCRYPT!" id="btn-encriptar" onclick="encriptar()">
+        <input class="btn" type="submit" value="DECRYPT!" id="btn-desencriptar" onclick="desencriptar()">
+
+
+      </form>
+    </section>
+    <div>
+    <section class="msg box">
+              <label for="text-input">Decodificador</label> <img src="segopen.png" align="center" width="25">
+              <br>
+              <br>
+              <br>
+      <input class="entrada" autocomplete="off" id="msg" nombre="palabra clave" value="Resultado del Decodificador" onclick="input()" style="width:300px;height:85px">
+        <br>
+      <input class="btn" type="submit" value="COPY" id="btn-copy" onclick="copy()">
+
+    </section>
+    <br>
+    <br>
+    <br>
+    </main>
+
+</body>
+</html>
